@@ -1,0 +1,113 @@
+    1  pwd
+    2  exit
+    3  pwd
+    4  exit
+    5  umask 
+    6  ll
+    7  cd /opd
+    8  cd /opt
+    9  ll
+   10  mkdir common
+   11  ll
+   12  touch myfile1
+   13  ll
+   14  chmod o+w common
+   15  ll
+   16  chmod 770 common
+   17  ll
+   18  chmod o+r common
+   19  ll
+   20  stat common 
+   21  chmod o+rx common
+   22  ll
+   23  chgrp animals common
+   24  ll
+   25  chmod +t common
+   26  file common
+   27  ll
+   28  stat common 
+   29  chmod 1770 common
+   30  ll
+   31  chmod 1775 common
+   32  ll
+   33  chown student common
+   34  ll
+   35  chown student.forest common
+   36  ll
+   37  chgrp -R forest common
+   38  ll common
+   39  chmod g+s common
+   40  ll
+   41  stat common
+   42  ll
+   43  date
+   44  hostname
+   45  whoami
+   46  echo "This is a script file"
+   47  echo "today is  a very good day"
+   48  echo $HOSTNAME
+   49  echo $HOME
+   50  echo $LOGNAME
+   51  echo $PATH
+   52  echo $MAIL
+   53  env
+   54  echo $EMAILID
+   55  EMAILID="$LOGNAME@$HOSTNAME"
+   56  echo $EMAILID
+   57  env | grep mail
+   58  env | grep MAIL
+   59  export EMAILID
+   60  env | grep MAIL
+   61  ll
+   62  vim myfile1 
+   63  ll
+   64  mv myfile1 myfile1.sh
+   65  cat myfile1.sh 
+   66  file myfile1.sh 
+   67  vim myfile1 
+   68  vim myfile1.sh 
+   69  file myfile1.sh 
+   70  vim myfile1.sh 
+   71  file myfile1.sh 
+   72  vim myfile1.sh 
+   73  file myfile1.sh 
+   74  vim myfile1.sh 
+   75  file myfile1.sh 
+   76  ll
+   77  ./myfile1.sh
+   78  /bin/bash ./myfile1.sh 
+   79  ll
+   80  chmod a+x  myfile1.sh 
+   81  ll
+   82  ./myfile1.sh 
+   83  cp myfile1.sh /usr/bin/greetings
+   84  which greetings
+   85  which fdisk
+   86  ll fdisk
+   87  ll /usr/sbin/fdisk
+   88  chmod u+s /usr/sbin/fdisk 
+   89  ll /usr/sbin/fdisk
+   90  chmod u-s /usr/sbin/fdisk 
+   91  ll
+   92  chmod 3755 common
+   93  ll
+   94  getfacl common
+   95  setfacl -m user:bikash:rwx common
+   96  getfacl common
+   97  ll
+   98  su - bikash
+   99  setfacl -m group:animals:rwx common
+  100  setfacl -m group:birds:--- common
+  101  setfacl -m user:parrot:rwx common
+  102  setfacl -m user:lion:--- common
+  103  getfacl common
+  104  setfacl -m mask:r-x common
+  105  getfacl common
+  106  setfacl -m mask:rwx common
+  107  getfacl common
+  108  setfacl -x user:parrot common
+  109  grtfacl common
+  110  getfacl common
+  111  exit
+  112  history
+  113  history > /home/student/Day2hist.txt

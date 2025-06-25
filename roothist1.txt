@@ -1,0 +1,76 @@
+    1  cd /etc/yum.repos.d/
+    2  ll
+    3  cat localftp.repo 
+    4  vim localftp.repo 
+    5  yum repolist
+    6  mv redhat.repo /root
+    7  yum list
+    8  dnf install -y vsftpd libvirt virt-manager 
+    9  cd /var/lib/libvirt/images/
+   10  ll
+   11  ll-lh
+   12  ll -lh
+   13  useradd -G wheel ocpadmin
+   14  passwd ocpadmin
+   15  id ocpadmin
+   16  vim /etc/vsftpd/vsftpd.conf 
+   17  systemctl enable --now vsftpd
+   18  hostnamectl 
+   19  systemctl enable --now libvirt
+   20  systemctl enable --now libvirtd
+   21  ping 192.168.122.180
+   22  cd /home/ocpadmin/Downloads/
+   23  ls
+   24  mount -o loop ./rhel-9.6-x86_64-dvd.iso /mnt
+   25  cd /mnt
+   26  mkdir /var/ftp/pub/rhel9
+   27  cp -rvf * /var/ftp/pub/rhel9/
+   28  exit
+   29  cd /var/ftp/pub/rhel9
+   30  ll
+   31  cd BaseOS/
+   32  ll
+   33  cd Packages/
+   34  ls
+   35  man rpm
+   36  rpm -qa
+   37  rpm -q gnome-terminal
+   38  rpm -q gnome-term
+   39  rpm -q gnome-*
+   40  rpm -qa |grep gnome
+   41  rpm -q gnome-terminal --info
+   42  rpm -q ftp
+   43  rpm -q zsh
+   44  ls
+   45  rpm -ivh ./zsh-5.8-9.el9.x86_64.rpm 
+   46  rpm -ivh ../../AppStream/Packages/ftp-0.17-89.el9.x86_64.rpm --test
+   47  rpm -ivh ../../AppStream/Packages/ftp-0.17-89.el9.x86_64.rpm
+   48  rpm -q ftp 
+   49  rpm -q ftp --filesbypkg
+   50  cd /etc
+   51  ls
+   52  rpm -qf /etc/nfs.conf
+   53  yum list
+   54  dnf list
+   55  dnf repolist
+   56  cd /etc/yum.repos.d/
+   57  ll
+   58  cat localftp.repo 
+   59  dnf list ftp
+   60  dnf remove ftp -y
+   61  dnf list ftp
+   62  dnf install ftp
+   63  dnf info ftp
+   64  dnf --help
+   65  dnf --help | less
+   66  dnf grouplist
+   67  cat docker-ce.repo 
+   68  lscpu
+   69  lscpu | less
+   70  free -m
+   71  lsblk
+   72  ip link show
+   73  nmcli device show ens192
+   74  ip a
+   75  exit
+   76  history > /home/ocpadmin/roothist1.txt

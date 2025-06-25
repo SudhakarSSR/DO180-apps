@@ -1,0 +1,57 @@
+    1  sudo vim /etc/yum.repos.d/localftp.repo 
+    2  sudo dnf repolist
+    3  sudo dnf list
+    4  exit
+    5  su - root
+    6  exit
+    7  vim /etc/yum.repos.d/localftp.repo 
+    8  sudo dnf repolist
+    9  sudo dnf list
+   10  exit
+   11  sudo nmtui
+   12  sudo reboot
+   13  sudo restart
+   14  hostnamectl 
+   15  sudo systemctl enable --now cockpit.socket 
+   16  suod visudo
+   17  sudo visudo
+   18  exit
+   19  sudo visudo
+   20  sudo fdisk -l
+   21  fdisk -l
+   22  exit
+   23  lsblk
+   24  exit
+   25  ll
+   26  cat known_hosts
+   27  cd
+   28  ll
+   29  w
+   30  ssh parrot@fe80::5054:ff:fe74:74b6
+   31  ping6 -c 4 fe80::5054:ff:fe74:74b6
+   32  ip a
+   33  ping6 -c 4 fe80::fc54:ff:fe74:74b6
+   34  ping -c 4 192.168.122.90
+   35  ip a
+   36  sudo nmtui
+   37  ip a
+   38  ping6 -c 4 fd00::121
+   39  ip a
+   40  ping6 -c 4 fd00::121
+   41  ping6 -c 4 fd00::120
+   42  su - root
+   43  exit
+   44  ip a
+   45  ifconfig
+   46  cls
+   47  clear
+   48  ip a
+   49  ssh bikash@192.168.122.180
+   50  ll
+   51  ll -a
+   52  cd .ssh
+   53  ll
+   54  cat known_hosts
+   55  ssh bikash@192.168.122.180
+   56  exit
+   57  history > Day2activity.txt

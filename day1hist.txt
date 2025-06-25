@@ -1,0 +1,228 @@
+    1  ip a
+    2  ping 192.168.122.1
+    3  nslookup www.google.com
+    4  sudo poweroff
+    5  exit
+    6  ip a
+    7  sudo dnf repolist
+    8  sudo dnf list
+    9  sudo dnf install -y microshift
+   10  sudo subscription-manager repos --enable rhocp-4.12-
+   11  hello))
+   12  sudo subscription-manager repos --enable rhocp-4.12
+   13  h-eforllo
+   14  ahahhhhahah
+   15  neo
+   16  history 
+   17  ls
+   18  ls -l
+   19  clear
+   20  sudo dnf install -y microshift
+   21  sudo subscription-manager repos --enable rhocp-4.12-for-rhel-9-$(uname -i)-rpms  --enable fast-datapath-for-rhel-8-$(uname -i)-rpms 
+   22  sudo systemctl enable --now cockpit.socket
+   23  sudo visudo
+   24  clear
+   25  exit
+   26  ss -ant
+   27  cd /etc/yum.repos.d/
+   28  ll
+   29  cat redhat.repo 
+   30  nano redhat.repo 
+   31  yum repolist
+   32  yum list
+   33  sudo poweroff
+   34  ip a
+   35  sudo poweroff
+   36  ip a
+   37  cd /etc/yum.repos.d/
+   38  ll
+   39  cat localftp.repo 
+   40  exit
+   41  pwd
+   42  cd /
+   43  ls
+   44  ls -l
+   45  clear
+   46  ls -li
+   47  ls -lih
+   48  ls -li
+   49   id
+   50  whoami
+   51  who am i 
+   52  who
+   53  w
+   54  clear
+   55  ls -li
+   56  fdisk -l
+   57  sudo fdisk -l
+   58  id
+   59  clear
+   60  su 
+   61  su - root
+   62  ls -li
+   63  cd
+   64  pwd
+   65  cd /dev
+   66  cd -
+   67  ped
+   68  pwd
+   69  cd -
+   70  ls -li
+   71  lsblk
+   72  cd /boot
+   73  cd .
+   74  pwd
+   75  cd ..
+   76  pwd
+   77  cd -
+   78  file /dev/vda
+   79  file /dev/tty2
+   80  file /boot
+   81  file /etc/fstab
+   82  file /bin
+   83  file /dev/initctl 
+   84  ls -l /run/initctl
+   85  file /run/initctl
+   86  file /dev/log
+   87  file /run/systemd/journal/dev-log
+   88  ls -l /run/systemd/journal/dev-log
+   89  ls -l /dev
+   90  ls -l /etc/fstab
+   91  file *
+   92  ls -l
+   93  stat /etc/fstab
+   94  stat /boot
+   95  date
+   96  timedatectl
+   97  date -u
+   98  date
+   99  echo $TZ
+  100  systemctl status chronyd
+  101  cat /etc/chrony.
+  102  cat /etc/chrony.conf 
+  103  q
+  104  cat /etc/localtime
+  105  cat /etc/locale.conf 
+  106  cd
+  107  df
+  108  df -m
+  109  df -h
+  110  df -hT
+  111  ls -l /dev
+  112  ls -l /dev | more
+  113  ls -l /dev | less
+  114  ls -l /dev | tail
+  115  ls -l /dev | tail -15
+  116  ls -l /dev | tail -2
+  117  ls -l /dev | head
+  118  ls -l /dev | head -14
+  119  ls -l /dev | head -14.5
+  120  ls -l /dev | grep vda
+  121  ls -l /dev | grep tty
+  122  ls -l /dev | grep -v tty
+  123  ls -l /dev | grep tty[1-5]
+  124  ls -l /dev | grep tty[1-*]
+  125  ll
+  126  cd Documents/
+  127  mkdir d1
+  128  ll
+  129  mkdir d2 d3 D4
+  130  ll
+  131  mkdir D1
+  132  ll
+  133  mkdir d1
+  134  ll
+  135  mkdir -p mydir/yourdir/hisdir/herdir/ourdir/theredir
+  136  ll
+  137  tree
+  138  tree /boot
+  139  mkdir .h1
+  140  ll
+  141  ll -ai
+  142  cd mudir
+  143  cd mydir
+  144  ll -ai
+  145  pwd
+  146  cd ..
+  147  pwd
+  148  cd ..
+  149  ll -ai
+  150  cd Documents
+  151  ll -ai
+  152  cat > file1
+  153  uptime
+  154  hostnamectl
+  155  pstree
+  156  q
+  157  lear
+  158  clear
+  159  sudo cat /etc/passwd
+  160  clear
+  161  sudo cat /etc/shadow
+  162  sudo cat /etc/group
+  163  sudo cat /etc/gshadow
+  164  sudo cat /etc/default/useradd
+  165  ll /home
+  166  ll /etc/skel
+  167  ll -a /etc/skel
+  168  ll /var/spool/mail/
+  169  sudo groupadd mygroup
+  170  sudo tail -5 /etc/group
+  171  sudo tail -5 /etc/gshadow
+  172  sudo groupadd -g birds
+  173  sudo groupadd -g 1200 birds
+  174  sudo groupadd -g 1300 ani
+  175  history
+  176  sudo tail -5 /etc/group
+  177  sudo tail -5 /etc/gshadow
+  178  sudo groupmod -n animals ani
+  179  sudo tail -5 /etc/group
+  180  sudo tail -5 /etc/gshadow
+  181  sudo groupdel mygroup
+  182  sudo tail -5 /etc/group
+  183  sudo groupdel student
+  184  sudo groupadd mygroup
+  185  sudo tail -5 /etc/group
+  186  sudo groupmod -g 1100 mygroup
+  187  sudo useradd bikash
+  188  sudo tail -5 /etc/passwd
+  189  sudo tail -5 /etc/shadow
+  190  sudo tail -5 /etc/group
+  191  sudo tail -5 /etc/gshadow
+  192  ll /home
+  193  ll -a /home/vinay
+  194  sudo ll -a /home/vinay
+  195  sudo ls -la /home/vinay
+  196  sudo ls -la /var/spool/mail
+  197  sudo adduser a1
+  198  sudo adduser b1
+  199  history
+  200  ll /home
+  201  sudo ls -la /var/spool/mail
+  202  which useradd
+  203  which adduser
+  204  file /usr/sbin/useradd
+  205  file /usr/sbin/adduser
+  206  ls -li /usr/sbin/adduser
+  207  sudo userdel b1
+  208  history
+  209  ll /home
+  210  sudo ls -la /var/spool/mail
+  211  sudo userdel -r a1
+  212  ll /home
+  213  sudo ls -la /var/spool/mail
+  214  sudo rm -rf /home/b1
+  215  sudo rm -rf /var/spool/mail/b1
+  216  sudo useradd lion
+  217  id lion
+  218  sudo useradd -u 1201 -g birds -G forest -c "National Animal" -d /home/tiger -m -s /bin/sh tiger
+  219  id tiger
+  220  sudo usermod -u 1301 -g 1300 tiger
+  221  id tiger
+  222  sudo groupdel animals
+  223  history
+  224  sudo cat /etc/passwd
+  225  sudo cat /etc/shadow
+  226  sudo passwd tiger
+  227  sudo cat /etc/shadow
+  228  history > day1hist.txt
